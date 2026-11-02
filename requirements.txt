@@ -1,0 +1,10 @@
+# Dépendances du service (image Docker). Versions figées : le modèle
+# models/model.joblib a été sérialisé avec scikit-learn 1.9.1 et doit être
+# chargé avec exactement la même version.
+fastapi==0.143.2
+uvicorn==0.54.0
+pydantic==2.14.1
+pandas==3.0.6
+numpy==2.5.4
+scikit-learn==1.9.1
+joblib==1.6.0
